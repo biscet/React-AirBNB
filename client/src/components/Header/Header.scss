@@ -1,0 +1,21 @@
+@import '../../styles/globals.scss';
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: 30px;
+    color: $black;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba($white, 0.98);
+    z-index: 1;
+}
+
+@media (min-width: 500px) {
+    .header {
+        position: absolute;
+    }
+}

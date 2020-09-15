@@ -1,0 +1,23 @@
+.chat {
+    width: 100%;
+    margin-top: 0;
+    padding: 0;
+    height: 100%;
+    position: relative;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+@media (min-width: 500px) {
+    .chat {
+        width: 355px;
+        height: 560px;
+        padding: 0;
+        background-color: #fff;
+        box-shadow: 0 0 12px rgba(88,117,149,.4);
+        position: fixed;
+    }
+}

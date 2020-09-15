@@ -1,0 +1,53 @@
+@import '../../styles/globals.scss';
+
+.start-form {
+    width: 355px;
+    position: relative;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #fff;
+
+    h1 {
+        font-family: Segoe UI, Helvetica, Arial, sans-serif;
+        color: rgba(0, 0, 0, .7);
+        margin-bottom: 40px;
+        font-size: 28px;
+    }
+}
+
+.form {
+    &-input {
+        outline: none;
+        border: 1px solid rgba(0, 0, 0, .20);
+        border-radius: 4px;
+        color: rgba(0, 0, 0, 1);
+        display: block;
+        font-family: Segoe UI, Helvetica, Arial, sans-serif;
+        font-size: 17px;
+        height: 42px;
+        margin-bottom: 12px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 16px;
+        min-width: 286px;
+    }
+
+    &-submit {
+        font-size: 20px;
+        border: none;
+        background: $blue;
+        color: $white;
+        font-weight: normal;
+        margin-top: 24px;
+    }
+
+    &-link {
+        font-size: 20px;
+        text-decoration: none;
+        color: $blue;
+        font-weight: normal;
+    }
+}
